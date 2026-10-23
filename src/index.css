@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-deep-forest: #202C28;
+    --color-brand-deep-forest-hover: #2C3D38;
+    --color-brand-sage-green: #D9E5D4;
+    --color-brand-warm-ivory: #F8F7F2;
+    --color-brand-white: #FFFFFF;
+    --color-text-primary: #20231F;
+    --color-text-secondary: #737A74;
+    --color-border-subtle: #E5E8E2;
+    --color-accent-gold: #B8A27A;
+    --color-semantic-success: #2E7D32;
+    --color-semantic-warning: #D97706;
+    --color-semantic-error: #DC2626;
+    --color-semantic-info: #3B82F6;
+  }
+
+  html[dir="rtl"] body {
+    font-family: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html[dir="ltr"] body {
+    font-family: 'Inter', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    background-color: #F8F7F2;
+    color: #20231F;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.font-num {
+  font-family: 'Inter', 'IBM Plex Sans Arabic', 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', 'IBM Plex Sans Arabic', 'Noto Sans Arabic', monospace;
+  font-variant-numeric: tabular-nums;
+}
+

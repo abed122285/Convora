@@ -1,0 +1,6 @@
+{
+  "name": "CONVORA — AI Customer Messaging & Order Operations",
+  "description": "Inbox-first AI customer messaging, lead management, and order automation platform for online merchants. Every Conversation. Under Control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
